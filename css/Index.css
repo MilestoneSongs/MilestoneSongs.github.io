@@ -68,4 +68,14 @@ body {
         background-attachment: fixed;
         background-repeat: no-repeat;
     }
+    
+    h1 {
+        width: 100%;
+    }
+    
+    h2 {}
+    
+    .jan, .feb, .mar, .apr, .may, .june, .july{}
+    
+    
 }
