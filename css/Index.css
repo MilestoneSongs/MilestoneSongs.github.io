@@ -84,6 +84,7 @@ body {
     ol {
         overflow: scroll;
         height: 30%;
+        padding-left: 60px;
     }
     
     h2 {
