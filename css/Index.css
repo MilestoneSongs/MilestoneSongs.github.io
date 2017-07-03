@@ -75,6 +75,7 @@ body {
 @media only screen and (orientation: portrait) {
     
     body {
+        background-attachment: fixed;
         background-repeat: repeat;
     }
     
