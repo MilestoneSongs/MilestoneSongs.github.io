@@ -58,6 +58,7 @@ ol{
 
 body {
     background-image: url(body%20background.jpg);
+    background-attachment: fixed;
     background-repeat: no-repeat;
 }
 
