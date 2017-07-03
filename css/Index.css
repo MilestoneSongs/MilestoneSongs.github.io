@@ -7,11 +7,11 @@ a {
 }
 
 a:link {
-    color: crimson;
+    color: inherit;
 }
 
 a:visited {
-    color: crimson;
+    color: inherit;
 }
 
 a:hover {
@@ -19,7 +19,7 @@ a:hover {
 }
 
 a:active {
-    color: crimson;
+    color: inherit;
 }
 
 h1{
@@ -62,6 +62,15 @@ body {
     background-repeat: no-repeat;
 }
 
+#ins {
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    background-color: crimson;
+    color: white;
+    border-radius: 100px;
+}
+
 
 @media only screen and (orientation: portrait) {
     body {
@@ -93,5 +102,9 @@ body {
     
     li {
         font-size: 30px;
+    }
+    
+    #ins {
+        width: 40%;
     }
 }
