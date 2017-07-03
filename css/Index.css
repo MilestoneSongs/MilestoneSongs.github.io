@@ -76,8 +76,8 @@ body {
     
     body {
         background-size: cover;
-        background-attachment: scroll;
         background-repeat: repeat;
+        background-position: left bottom;
     }
     
     h1 {
