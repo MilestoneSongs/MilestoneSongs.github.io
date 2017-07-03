@@ -74,6 +74,10 @@ body {
 
 @media only screen and (orientation: portrait) {
     
+    body {
+        background-size: cover;
+    }
+    
     h1 {
         font-size: 70px;
         width: 100%;
