@@ -75,6 +75,7 @@ body {
 @media only screen and (orientation: portrait) {
     
     body {
+        background-image: url(media%20query.jpg);
         background-attachment: fixed;
         background-repeat: repeat;
     }
