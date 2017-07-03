@@ -59,23 +59,38 @@ ol{
 body {
     background-image: url(body%20background.jpg);
     background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (orientation: portrait) {
     body {
         background-image: url(potrait%20bg.jpg);
         background-attachment: fixed;
         background-repeat: no-repeat;
+        background-size: cover;
     }
     
     h1 {
+        font-size: 70px;
         width: 100%;
     }
     
-    h2 {}
+    .jan, .feb, .mar, .apr, .may, .june, .july {
+        float: none;
+        width: 100%;
+    }
     
-    .jan, .feb, .mar, .apr, .may, .june, .july{}
+    ol {
+        overflow: scroll;
+        height: 30%;
+    }
     
+    h2 {
+        font-size: 40px;
+    }
     
+    li {
+        font-size: 30px;
+    }
 }
