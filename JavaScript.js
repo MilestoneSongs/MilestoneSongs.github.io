@@ -1,0 +1,1 @@
+alert("Click on a Song to visit Youtube");
