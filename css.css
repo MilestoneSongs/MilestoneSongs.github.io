@@ -10,18 +10,21 @@ a:link {
     color: inherit;
 }
 
-a:hover, .top {
-    color: royalblue;
+a:hover {
     font-size: 30px;
 }
 
+a:visited {
+    color: inherit;
+}
+
 h2 {
-    width: 20%;
+    width: 275px;
     text-align: center;
 }
 
 ol {
-    width: 20%;
+    width: 250px;
     height: 20%;
     overflow: scroll;
 }
@@ -30,3 +33,20 @@ ol {
     font-size: 20px;
     color: crimson;
 }
+
+.july17, .june17 {
+    float: left;
+    margin: 0px 10px 0px 10px;
+}
+
+a .hide {
+    display: none;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+
+a:hover .hide {
+    display: inherit;
+}
+
