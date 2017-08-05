@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 h1 {
     margin: auto;
     width: 50%;
@@ -19,12 +23,12 @@ a:visited {
 }
 
 h2 {
-    width: 275px;
+    width: 375px;
     text-align: center;
 }
 
 ol {
-    width: 250px;
+    width: 375px;
     height: 20%;
     overflow: scroll;
 }
@@ -48,5 +52,15 @@ a .hide {
 
 a:hover .hide {
     display: inherit;
+}
+
+body {
+    background-image: url(img/Background.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+ol {
+    background-color: whitesmoke;
 }
 
