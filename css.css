@@ -23,11 +23,13 @@ a:visited {
 }
 
 h2 {
+    margin-top: 15px;
     width: 375px;
     text-align: center;
 }
 
 ol {
+    margin-top: -15px;
     width: 375px;
     height: 20%;
     overflow: scroll;
